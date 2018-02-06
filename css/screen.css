@@ -23,6 +23,10 @@ body {
     align-items: center;
 }
 
+.logo-image {
+
+}
+
 .logo {
     margin-right: auto;
 }
@@ -50,6 +54,7 @@ body {
     background: #F5F4F2;
     padding: 20px;
 }
+
 
 .text-align-left {
     text-align: left;
