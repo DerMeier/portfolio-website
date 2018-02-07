@@ -38,11 +38,12 @@
     }
 
         .page-footer-copyright {
-            margin-right: auto;
+            align-items: flex-start;
+            padding-right: 50px;
             color: #BCB693;
         }
 
         .page-footer-impress-link {
-            margin-left: auto;
+            margin-right: auto;
         }
 
