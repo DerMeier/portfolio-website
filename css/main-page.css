@@ -7,7 +7,7 @@
 
     .page-header {
         padding: 10px 20px;
-        background: #647880;
+        background-color: #F5F4F2;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -20,21 +20,17 @@
         padding: 20px;
         text-align: left;
     }
-        .page-main-items {
+        .page-main-items {}
 
-        }
+            .page-main-text-item{}
 
-            .page-main-text-item{
+                .page-main-content {}
 
-            }
 
-                .page-main-content {
-
-                }
     .page-footer {
         padding-left: 20px;
         padding-right: 20px;
-        background: #647880;
+        background: #575757;
         height: 75px;
         display: flex;
         flex-direction: row;
@@ -43,16 +39,10 @@
 
         .page-footer-copyright {
             margin-right: auto;
+            color: #BCB693;
         }
 
         .page-footer-impress-link {
             margin-left: auto;
         }
 
-.page-logo {
-    margin-right: auto;
-}
-
-    .page-logo-image {
-
-    }

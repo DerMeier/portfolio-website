@@ -1,13 +1,11 @@
 
-.page-main-portfolio {
-}
+.page-main-portfolio {}
 
     .portfolio-list {
         padding: 0;
         list-style-type: none;
-        column-count: 3;
-        column-gap: 1em;
-        column-width: calc((100vw / 3) - 40px - 2em); /* noch unscharf, weil margins und gaps nicht berücksichtigt werden */
+        column-count: 1;
+        column-gap: 10px;
         column-fill: balance;
     }
 
@@ -19,13 +17,35 @@
             }
 
                 .portfolio-image {
-                    margin-top: 1em;
+                    margin-top: 10px;
                     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                 }
 
                 .img-discription {
                     display: flex;
                     justify-content: center;
-                    background-color: #647880;
-                    color: #F5F4F2;
+                    background-color: #575757;
+                    color: #BCB693;
                 }
+
+
+@media screen and (min-width: 500px) {
+
+    .portfolio-list {
+        column-count: 2;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    .portfolio-list {
+        column-count: 3;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .portfolio-list {
+        column-count: 4;
+    }
+}
