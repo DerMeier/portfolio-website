@@ -1,5 +1,5 @@
 
-.main-portfolio {
+.page-main-portfolio {
 }
 
     .portfolio-list {
@@ -8,6 +8,7 @@
         column-count: 3;
         column-gap: 1em;
         column-width: calc((100vw / 3) - 40px - 2em); /* noch unscharf, weil margins und gaps nicht berücksichtigt werden */
+        column-fill: balance;
     }
 
         .portfolio-item {
@@ -18,5 +19,13 @@
             }
 
                 .portfolio-image {
-                    margin-bottom: 1em;
+                    margin-top: 1em;
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                }
+
+                .img-discription {
+                    display: flex;
+                    justify-content: center;
+                    background-color: #647880;
+                    color: #F5F4F2;
                 }
