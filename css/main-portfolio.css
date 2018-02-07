@@ -1,0 +1,22 @@
+
+.main-portfolio {
+}
+
+    .portfolio-list {
+        padding: 0;
+        list-style-type: none;
+        column-count: 3;
+        column-gap: 1em;
+        column-width: calc((100vw / 3) - 40px - 2em); /* noch unscharf, weil margins und gaps nicht berücksichtigt werden */
+    }
+
+        .portfolio-item {
+
+        }
+            .portfolio-content {
+
+            }
+
+                .portfolio-image {
+                    margin-bottom: 1em;
+                }

@@ -1,3 +1,8 @@
+
+@import url('main-nav.css');
+@import url('main-portfolio.css');
+@import url('main-page.css');
+@import url('main-logo.css');
 * {
     box-sizing: border-box;
 }
@@ -8,78 +13,12 @@ body {
     margin: 0;
 }
 
-.website {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.header {
-    padding: 10px 20px;
-    background: #647880;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-}
-
-.logo-image {
-
-}
-
-.logo {
-    margin-right: auto;
-}
-
-.nav {
-}
-
-.nav-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.nav-item + .nav-item {
-    margin-left: 10px;
-}
-
-.nav-text {
-    display: block;
-}
-
-.main {
-    flex-grow: 1;
-    background: #F5F4F2;
-    padding: 20px;
-}
-
-
-.text-align-left {
-    text-align: left;
+img {
+    max-width: 100%;
 }
 
 h1,h2,h3,h4 {
     font-family: 'Quicksand', sans-serif;
-}
-
-.footer {
-    padding-left: 20px;
-    padding-right: 20px;
-    background: #647880;
-    height: 75px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.copyright {
-    margin-right: auto;
-}
-
-.impress-link {
-    margin-left: auto;
 }
 
 .link-style {
