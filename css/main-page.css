@@ -44,6 +44,15 @@
         }
 
         .page-footer-impress-link {
-            margin-right: auto;
+        }
+
+        .page-footer-instagram-link {
+            margin-left: auto;
+        }
+
+        .page-footer-instagram-logo {
+            height:50px;
+            text-decoration: none;
+            color: #BCB693;
         }
 
