@@ -18,6 +18,7 @@
         flex-grow: 1;
         background: #F5F4F2;
         padding: 20px;
+        padding-top: 0;
         text-align: left;
     }
         .page-main-items {}
