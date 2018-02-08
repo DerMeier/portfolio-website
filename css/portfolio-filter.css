@@ -1,0 +1,17 @@
+.filter-btn-box {
+    box-sizing: border-box;
+}
+
+.filter-btn {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background-color: #575757;
+    cursor: pointer;
+    color: #BCB693;
+}
+
+.filter-btn.active {
+    background-color: #BCB693;
+    color: #575757;
+}
