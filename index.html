@@ -20,7 +20,7 @@
 
         <div class="page">
             <header class="page-header">
-                <a href="#" class="page-logo">
+                <a href="#" class="page-logo" onclick="openSliteMenu">
                     <img class="page-logo-image" src="img/Logo_5.svg" alt="Logo">
                 </a>
 
@@ -38,14 +38,21 @@
                     </ul>
                 </nav>
 
+                <div id="side-menu" class="side-nav">
+                    <a href="#" class="btn-close" onclick="closeSliteMenu">&times;</a>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+
             </header>
-            <main class="page-main">
+            <main id="main" class="page-main">
                 <div class="page-main-items">
                     <div class="page-main-filter">
                         <div class="filter-btn-box">
-                            <button class="filter-btn active" onclick="filterSelection('all')">Show all</button>
-                            <button class="filter-btn" onclick="filterSelection('1')">B n W</button>
-                            <button class="filter-btn" onclick="filterSelection('2')">Manipulate</button>
+                            <button class="filter-btn active" onclick="zeigeAlleBilder()">Show all</button>
+                            <button class="filter-btn" onclick="versteckeAlleBilderDieNichtBWSind()">B n W</button>
+                            <button class="filter-btn" onclick="versteckeAlleBilderDieNichtManipulateSind()">Manipulate</button>
                         </div>
                     </div>
                     <div class="page-main-portfolio">
@@ -173,5 +180,15 @@
             ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
         </script>
         <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+        <script>
+            function openSliteMenu() {
+                document.getElementsById('site-menu').style.width = '250px';
+                document.getElementsById('site-menu').style.marginLeft = '250px';
+            }
+            function closeSliteMenu() {
+                document.getElementsById('site-menu').style.width = '0px';
+                document.getElementsById('site-menu').style.marginLeft = '0px';
+            }
+        </script>
     </body>
 </html>

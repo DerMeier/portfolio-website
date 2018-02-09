@@ -5,4 +5,18 @@
 @import url('main-logo.css');
 @import url('portfolio-filter.css');
 
+
+.site-nav {
+    height: 100%;
+    width:0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #222222;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
 /* Verwendete Farben: #575757 #BCB693 /*
