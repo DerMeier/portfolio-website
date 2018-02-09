@@ -11,7 +11,16 @@
     color: #BCB693;
 }
 
-.filter-btn.active {
-    background-color: #BCB693;
+.filter-btn:hover {
     color: #575757;
+    background-color: #BCB693;
+}
+
+.filter-btn.active {
+    color: #575757;
+    background-color: #BCB693;
+}
+
+.show {
+    display: block;
 }
