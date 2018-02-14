@@ -1,11 +1,25 @@
-
 .page-logo {
     margin-right: auto;
 }
-
-    .page-logo-image {
-         height: 50px;
+    .page-link {
+        margin: 0 10px 0 0;
     }
+
+        .page-logo-image {
+             height: 40px;
+        }
+
+
+.page-instagram-link{}
+
+    .page-instagram-logo{
+        height: 30px;
+        /*margin-left: 60px;*/
+    }
+
+.contact-logo {
+    height: 30px;
+}
 
 @media screen and (min-width: 150px) {
 
@@ -14,7 +28,7 @@
     }
 
     .page-logo-image {
-        height: 55px;
+        height: 45px;
     }
 
 }
@@ -30,23 +44,23 @@
 @media screen and (min-width: 500px) {
 
     .page-logo-image {
+        height: 50px;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+
+    .page-logo-image {
         height: 60px;
     }
 
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
 
-    .page-logo-image {
-        height: 70px;
-    }
-
-}
-
-@media screen and (min-width: 1000px) {
-
-    .page-logo-image {
-        height: 80px;
+    .page-logo {
+        padding: 0 0 40px 0;
     }
 
 }

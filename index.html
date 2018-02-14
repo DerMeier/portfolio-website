@@ -20,30 +20,32 @@
 
         <div class="page">
             <header class="page-header">
-                <a href="#" class="page-logo" onclick="openSliteMenu">
+                <div class="page-logo">
+                <a href="#" class="page-link" onclick="">
                     <img class="page-logo-image" src="img/Logo_5.svg" alt="Logo">
                 </a>
+                </div>
 
                 <nav class="main-nav">
                     <ul class="nav-list">
+                        <!--<li class="nav-item">
+                            <a href="#" class="nav-text nav-link-style">Home</a>
+                        </li>!-->
                         <li class="nav-item">
-                            <a href="#" class="nav-text link-style">Home</a>
+                            <a href="#" class="nav-contact-logo">
+                                <span class="visually-hidden">Contact</span>
+                                <img class="contact-logo" src="img/contact_logo.svg" alt="Contact" aria-hidden="true">
+                            </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-text link-style">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-text link-style">Contact</a>
-                        </li>
+                        <!--<li class="nav-item">
+                            <a href="#" class="nav-text nav-link-style">Contact</a>
+                        </li>!-->
                     </ul>
                 </nav>
 
-                <div id="side-menu" class="side-nav">
-                    <a href="#" class="btn-close" onclick="closeSliteMenu">&times;</a>
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Contact</a>
-                </div>
+                <a href="https://www.instagram.com/neomeier/?hl=de" class="page-instagram-link">
+                    <img class="page-instagram-logo" src="img/instagram_logo_4.svg" alt="Instagram Logo">
+                </a>
 
             </header>
             <main id="main" class="page-main">
@@ -51,76 +53,78 @@
                     <div class="page-main-filter">
                         <div class="filter-btn-box">
                             <button class="filter-btn active" onclick="zeigeAlleBilder()">Show all</button>
-                            <button class="filter-btn" onclick="versteckeAlleBilderDieNichtBWSind()">B n W</button>
-                            <button class="filter-btn" onclick="versteckeAlleBilderDieNichtManipulateSind()">Manipulate</button>
+                            <button class="filter-btn" onclick="FilterAlleSchwarzWeissBilder()">B n W</button>
+                            <button class="filter-btn" onclick="FilterAllePsManipulationBilder()">Ps Manipulate</button>
+                            <!--<button class="filter-btn" onclick="FilterAlleKohleBilder()">Charcoal Drawing</button>!-->
+                            <!--<button class="filter-btn" onclick="FilterAlleLogoBilder()">Logos</button>!-->
                         </div>
                     </div>
                     <div class="page-main-portfolio">
                         <ul class="portfolio-list">
-                            <li class="portfolio-item 1">
+                            <li class="portfolio-item bnw" data-filter="bnw">
                                 <div class="portfolio-content">
                                     <img class="portfolio-image" src="img/starlord.jpg" alt="Starlord" width="500px" height="auto">
-                                    <span class="img-discription">Image discription</span>
+                                    <span class="img-description">Image description</span>
                                 </div>
                             </li>
-                            <li class="portfolio-item 1">
+                            <li class="portfolio-item psm" data-filter="bnw">
                                 <div class="portfolio-content">
                                     <img class="portfolio-image" src="img/ornament-face.jpg" alt="Ornament-face" width="500px">
-                                    <span class="img-discription">Image discription</span>
+                                    <span class="img-description">Image description</span>
                                 </div>
                             </li>
-                            <li class="portfolio-item 1">
+                            <li class="portfolio-item psm">
                                 <div class="portfolio-content">
                                     <img class="portfolio-image" src="img/comic-style.jpg" alt="Comic-style" width="500px">
-                                    <span class="img-discription">Image discription</span>
+                                    <span class="img-description">Image description</span>
                                 </div>
                             </li>
-                            <li class="portfolio-item 2">
+                            <li class="portfolio-item psm">
                                 <div class="portfolio-content">
                                     <img class="portfolio-image" src="img/woodface.jpg" alt="Woodface" width="500px">
-                                    <span class="img-discription">Image discription</span>
+                                    <span class="img-description">Image description</span>
                                 </div>
                             </li>
-                            <li class="portfolio-item 2">
+                            <li class="portfolio-item psm">
                                 <div class="portfolio-content">
                                     <img class="portfolio-image" src="img/tip_of_the_mountain.jpg" alt="The tip of the Mountain" width="500px">
-                                    <span class="img-discription">Image discription</span>
+                                    <span class="img-description">Image description</span>
                                 </div>
                             </li>
-                            <li class="portfolio-item 2">
+                            <li class="portfolio-item psm">
                                 <div class="portfolio-content">
                                     <img class="portfolio-image" src="img/gestures.jpg" alt="Gestures" width="500px">
-                                    <span class="img-discription">Image discription</span>
+                                    <span class="img-description">Image description</span>
                                 </div>
                             </li>
-                            <li class="portfolio-item 3">
+                            <li class="portfolio-item psm">
                                 <div class="portfolio-content">
                                     <img class="portfolio-image" src="img/facial_expressions.jpg" alt="Facial expressions" width="500px">
-                                    <span class="img-discription">Image discription</span>
+                                    <span class="img-description">Image description</span>
                                 </div>
                             </li>
-                            <li class="portfolio-item 3">
+                            <li class="portfolio-item psm">
                                 <div class="portfolio-content">
                                     <img class="portfolio-image" src="img/facial_expressions_and_gestures.jpg" alt="Facial expressions and gestures" width="500px">
-                                    <span class="img-discription">Image discription</span>
+                                    <span class="img-description">Image description</span>
                                 </div>
                             </li>
-                            <li class="portfolio-item 3">
+                            <li class="portfolio-item psm">
                                 <div class="portfolio-content">
                                     <img class="portfolio-image" src="img/clothes_make_people.jpg" alt="Clothes make people" width="500px">
-                                    <span class="img-discription">Image discription</span>
+                                    <span class="img-description">Image description</span>
                                 </div>
                             </li>
-                            <li class="portfolio-item 4">
+                            <li class="portfolio-item psm">
                                 <div class="portfolio-content">
                                     <img class="portfolio-image" src="img/clothes_make_people_2.jpg" alt="Clothes make people 2" width="500px">
-                                    <span class="img-discription">Image discription</span>
+                                    <span class="img-description">Image description</span>
                                 </div>
                             </li>
-                            <li class="portfolio-item 4">
+                            <li class="portfolio-item psm">
                                 <div class="portfolio-content">
                                     <img class="portfolio-image" src="img/clothes_make_people_3.jpg" alt="Clothes make people 3" width="500px">
-                                    <span class="img-discription">Image discription</span>
+                                    <span class="img-description">Image description</span>
                                 </div>
                             </li>
                         </ul>
@@ -161,10 +165,6 @@
             <footer class="page-footer">
                 <span class="page-footer-copyright">&copy; Lukas Meier, 2018</span>
                 <a href="#" class="page-footer-impress-link link-style" >Impress</a>
-                <a href="https://www.instagram.com/neomeier/?hl=de" class="page-footer-instagram-link">
-                    <img class="page-footer-instagram-logo" src="img/instagram_logo.svg" alt="Instagram Logo">
-                </a>
-
             </footer>
         </div>
 
