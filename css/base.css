@@ -7,6 +7,7 @@ body {
     font-family: 'Open Sans', sans-serif;/*'EB Garamond', serif*/
     padding: 0;
     margin: 0;
+    background-color:#F5F4F2;
 }
 
 img {
@@ -18,7 +19,15 @@ h1,h2,h3,h4 {
 }
 
 .link-style {
-    padding: 8px;
     text-decoration: none;
     color: #BCB693;
+}
+
+.visually-hidden {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    z-index: -1;
 }

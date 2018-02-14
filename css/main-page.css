@@ -6,7 +6,7 @@
 }
 
     .page-header {
-        padding: 20px 20px;
+        padding: 40px 40px 0 40px;
         background-color: #F5F4F2;
         display: flex;
         flex-wrap: wrap;
@@ -14,11 +14,11 @@
         align-items: center;
     }
 
+
     .page-main {
         flex-grow: 1;
         background: #F5F4F2;
-        padding: 20px;
-        padding-top: 0;
+        padding: 80px 40px 0 40px;
         text-align: left;
     }
         .page-main-items {}
@@ -29,10 +29,10 @@
 
 
     .page-footer {
-        padding-left: 20px;
-        padding-right: 20px;
+        margin: 20px 0 0 0;
+        padding:0 40px 0 40px;
         background: #575757;
-        height: 75px;
+        height: 80px;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -47,9 +47,6 @@
         .page-footer-impress-link {
         }
 
-        .page-footer-instagram-link {
-            margin-left: auto;
-        }
 
         .page-footer-instagram-logo {
             height:50px;
@@ -57,3 +54,67 @@
             color: #BCB693;
         }
 
+
+@media screen and (min-width: 150px) {
+    .page-header {
+        padding:40px 10px 0 10px;
+    }
+    .page-main {
+        padding: 80px 10px 0 10px;
+    }
+    .page-footer {
+        padding: 0 10px 0 10px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .page-header {
+        padding:40px 20px 0 20px;
+    }
+    .page-main {
+        padding: 80px 20px 0 20px;
+    }
+    .page-footer {
+        padding: 0 20px 0 20px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .page-header {
+        padding:40px 30px 0 30px;
+    }
+    .page-main {
+        padding: 80px 30px 0 30px;
+    }
+    .page-footer {
+        padding: 0 30px 0 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .page {
+        margin-left: 300px;
+    }
+    .page-header {
+        padding:40px 40px 0 40px;
+        position: fixed;
+        left:0;
+        top:0;
+        height: 100vh;
+        flex-direction: column;
+        align-items: flex-start;
+        border-right: solid 5px;
+        border-right-color: #575757;
+        width: 300px;
+    }
+
+    .page-main {
+        padding: 40px 40px 0 40px;
+        /*border-left: solid 20px;
+        border-left-color: #575757;*/
+    }
+    .page-footer {
+        padding: 0 40px 0 40px;
+
+    }
+}
