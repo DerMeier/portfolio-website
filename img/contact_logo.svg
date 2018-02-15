@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#585758;}
-</style>
-<path class="st0" d="M50,50c-16.6,0-30,13.4-30,30v0h10v0c0-11,9-20,20-20s20,9,20,20v0h10v0C80,63.4,66.6,50,50,50z"/>
-<path class="st0" d="M0,0v100h100V0H0z M90,90H10V10h80V90z"/>
-<path class="st0" d="M50,50L50,50c-8.3,0-15-6.7-15-15v0c0-8.3,6.7-15,15-15h0c8.3,0,15,6.7,15,15v0C65,43.3,58.3,50,50,50z"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><style>.st0{fill:#585758}</style><path class="st0" d="M50 50c-16.6 0-30 13.4-30 30h10c0-11 9-20 20-20s20 9 20 20h10c0-16.6-13.4-30-30-30z"/><path class="st0" d="M0 0v100h100V0H0zm90 90H10V10h80v80z"/><path class="st0" d="M50 50c-8.3 0-15-6.7-15-15s6.7-15 15-15 15 6.7 15 15-6.7 15-15 15z"/></svg>
