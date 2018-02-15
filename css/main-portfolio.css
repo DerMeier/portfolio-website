@@ -31,7 +31,7 @@
                     opacity: 0;
                     position: absolute;
                     width: 100%;
-                    color: #BCB693;
+                    color: #d5d5d5;
                     bottom:0;
                     padding:5px 5px;
                     background-color: #575757;
@@ -40,10 +40,6 @@
             .portfolio-content:hover .img-description {
                 opacity: 1;
             }
-            .portfolio-content:hover .portfolio-image {
-                opacity: 0.5;
-            }
-
 
 @media screen and (min-width: 500px) {
 
@@ -59,7 +55,7 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
 
     .portfolio-list {
         column-count: 4;
