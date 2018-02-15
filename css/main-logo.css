@@ -2,24 +2,23 @@
     margin-right: auto;
 }
     .page-link {
-        margin: 0 10px 0 0;
+        display: inline-block;
     }
 
         .page-logo-image {
-             height: 40px;
+            height: 40px;
+            padding: 0 10px 0 0;
+        }
+        .page-logo-style{
+            transition: 0.5s;
+        }
+        .logo-style {
+            fill: #575757;
         }
 
-
-.page-instagram-link{}
-
-    .page-instagram-logo{
-        height: 30px;
-        /*margin-left: 60px;*/
-    }
-
-.contact-logo {
-    height: 30px;
-}
+        .page-logo-image:hover .logo-style {
+            fill: #fd3d00;
+        }
 
 @media screen and (min-width: 150px) {
 
@@ -60,7 +59,13 @@
 @media screen and (min-width: 1200px) {
 
     .page-logo {
-        padding: 0 0 40px 0;
+        margin: 0;
+    }
+    .page-logo-image {
+        padding: 0;
+    }
+    .logo-style {
+        fill: #d5d5d5;
     }
 
 }
