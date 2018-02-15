@@ -20,8 +20,12 @@ h1,h2,h3,h4 {
 
 .link-style {
     text-decoration: none;
-    color: #BCB693;
+    color: #d5d5d5;
+    transition: 0.5s;
 }
+    .link-style:hover {
+        color: #fd3d00;
+    }
 
 .visually-hidden {
     width: 0.1px;
