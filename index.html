@@ -22,7 +22,7 @@
             <header class="page-header">
                 <div class="page-logo">
                 <a href="#" class="page-link" onclick="">
-                    <img class="page-logo-image" src="img/Logo_5.svg" alt="Logo">
+                    <svg class="page-logo-image"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 198.8 112"><path class="logo-style page-logo-style" d="M-.4-.4v113h200V-.4H-.4zm191.3 104.3H8.3V8.2h182.6v95.7z"/><path class="logo-style page-logo-style" d="M56.1 56.1L17 16.9v78.3h78.2V16.9zM143 56.1l-39.1-39.2v78.3h78.3V16.9z"/></svg>
                 </a>
                 </div>
 
@@ -34,7 +34,8 @@
                         <li class="nav-item">
                             <a href="#" class="nav-contact-logo">
                                 <span class="visually-hidden">Contact</span>
-                                <img class="contact-logo" src="img/contact_logo.svg" alt="Contact" aria-hidden="true">
+                                <svg class="contact-logo-image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path class="contact-logo contact-logo-style" d="M50 50c-16.6 0-30 13.4-30 30h10c0-11 9-20 20-20s20 9 20 20h10c0-16.6-13.4-30-30-30z"/><path class="contact-logo contact-logo-style" d="M0 0v100h100V0H0zm90 90H10V10h80v80z"/><path class="contact-logo contact-logo-style" d="M50 50c-8.3 0-15-6.7-15-15s6.7-15 15-15 15 6.7 15 15-6.7 15-15 15z"/></svg>
+
                             </a>
                         </li>
                         <!--<li class="nav-item">
@@ -42,11 +43,12 @@
                         </li>!-->
                     </ul>
                 </nav>
-
-                <a href="https://www.instagram.com/neomeier/?hl=de" class="page-instagram-link">
-                    <img class="page-instagram-logo" src="img/instagram_logo_4.svg" alt="Instagram Logo">
-                </a>
-
+                <div class="page-instagram-logo">
+                    <a href="https://www.instagram.com/neomeier/?hl=de" class="page-instagram-link">
+                        <!--<img class="page-instagram-logo" src="img/instagram_logo_4.svg" alt="Instagram Logo">!-->
+                        <svg class="instagram-logo-image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path class="instagram-logo instagram-logo-style" d="M0 0v100h100V0H0zm90 90H10V10h80v80z"/><path class="instagram-logo instagram-logo-style" d="M73 17h10v10H73zM15 10h5v10h-5zM22 10h5v10h-5zM29 10h5v10h-5zM50 30c-11 0-20 9-20 20s9 20 20 20 20-9 20-20-9-20-20-20zm0 29.7c-5.4 0-9.7-4.4-9.7-9.7s4.4-9.7 9.7-9.7 9.7 4.4 9.7 9.7-4.3 9.7-9.7 9.7z"/><path class="instagram-logo instagram-logo-style" d="M60 40h30v10H60zM10 40h30v10H10z"/></svg>
+                    </a>
+                </div>
             </header>
             <main id="main" class="page-main">
                 <div class="page-main-items">
@@ -55,19 +57,19 @@
                             <button class="filter-btn active" onclick="zeigeAlleBilder()">Show all</button>
                             <button class="filter-btn" onclick="FilterAlleSchwarzWeissBilder()">B n W</button>
                             <button class="filter-btn" onclick="FilterAllePsManipulationBilder()">Ps Manipulate</button>
-                            <!--<button class="filter-btn" onclick="FilterAlleKohleBilder()">Charcoal Drawing</button>!-->
-                            <!--<button class="filter-btn" onclick="FilterAlleLogoBilder()">Logos</button>!-->
+                            <button class="filter-btn" onclick="FilterAlleKohleBilder()">Charcoal Drawing</button>
+                            <button class="filter-btn" onclick="FilterAlleLogoBilder()">Logos</button>
                         </div>
                     </div>
                     <div class="page-main-portfolio">
                         <ul class="portfolio-list">
-                            <li class="portfolio-item bnw" data-filter="bnw">
+                            <li class="portfolio-item bnw">
                                 <div class="portfolio-content">
                                     <img class="portfolio-image" src="img/starlord.jpg" alt="Starlord" width="500px" height="auto">
                                     <span class="img-description">Image description</span>
                                 </div>
                             </li>
-                            <li class="portfolio-item psm" data-filter="bnw">
+                            <li class="portfolio-item psm">
                                 <div class="portfolio-content">
                                     <img class="portfolio-image" src="img/ornament-face.jpg" alt="Ornament-face" width="500px">
                                     <span class="img-description">Image description</span>
