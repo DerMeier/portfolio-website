@@ -10,14 +10,14 @@
     padding: 5px 10px;
     background-color: #575757;
     cursor: pointer;
-    color: #BCB693;
+    color: #d5d5d5;
     font-family: 'Nunito', sans-serif;
-
+    transition: 0.5s;
 }
 
 .filter-btn:hover {
     color: #575757;
-    background-color: #BCB693;
+    background-color: #d5d5d5;
 }
 
 /*.filter-btn.active {
