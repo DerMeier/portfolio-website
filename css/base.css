@@ -18,13 +18,22 @@ h1,h2,h3,h4 {
     font-family: 'Nunito', sans-serif;/*'Quicksand', sans-serif;*/
 }
 
-.link-style {
+a {
     text-decoration: none;
-    color: #d5d5d5;
-    transition: 0.5s;
+    color: #00e852;
+    transition: color 0.5s;
 }
-    .link-style:hover {
-        color: #fd3d00;
+a:hover {
+    color: #1b1b1b;
+}
+
+.link-style-footer {
+    text-decoration: none;
+    color: #00e852;
+    transition: color 0.5s;
+}
+    .link-style-footer:hover {
+        color: #d5d5d5;
     }
 
 .visually-hidden {

@@ -1,5 +1,5 @@
 .filter-btn-box {
-    display: inline-block;
+    text-align: right;
 }
 
 .filter-btn {
@@ -8,15 +8,15 @@
     border: none;
     outline: none;
     padding: 5px 10px;
-    background-color: #575757;
+    background-color: #1b1b1b;
     cursor: pointer;
-    color: #d5d5d5;
+    color: #00e852;
     font-family: 'Nunito', sans-serif;
     transition: 0.5s;
 }
 
 .filter-btn:hover {
-    color: #575757;
+    color: #1b1b1b;
     background-color: #d5d5d5;
 }
 
