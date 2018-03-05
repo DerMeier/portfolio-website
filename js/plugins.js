@@ -22,3 +22,7 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+
+$('.js-portfolio-image-link').modaal({
+    type: 'image'
+});
