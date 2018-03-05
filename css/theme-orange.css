@@ -1,0 +1,58 @@
+/*
+a{
+    color: #fd3d00;
+}
+.logo-style{
+    fill: #fd3d00;
+}
+
+.page-logo-image:hover .logo-style {
+    fill: #1b1b1b;
+}
+
+.page-header {
+    background-color: #f5f4f2;
+}
+
+.contact-logo {
+    fill: #fd3d00;
+}
+
+.contact-logo-image:hover .contact-logo {
+    fill: #1b1b1b;
+}
+
+.instagram-logo{
+    fill: #fd3d00;
+}
+
+.instagram-logo-image:hover .instagram-logo {
+    fill: #1b1b1b;
+}
+.page-footer{
+    background-color: #575757;
+}
+.link-style-footer{
+    color: #fd3d00;
+}
+.filter-btn{
+    color: #d5d5d5;
+    background-color: #575757;
+}
+.filter-btn:hover{
+    color: #575757;
+    background-color: #d5d5d5;
+}
+@media screen and (min-width: 1200px) {
+    .page-header{
+        background-color: #d5d5d5;
+        border-right-color: #d5d5d5;
+    }
+    .page-footer{
+        background-color: #d5d5d5;
+    }
+    .page-footer-copyright{
+        color: #575757;
+    }
+}
+*/
