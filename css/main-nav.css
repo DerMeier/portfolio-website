@@ -4,17 +4,17 @@
 
 .nav-list {
     list-style-type: none;
-    margin: 0 20px 0 0;
     padding: 0;
+    margin: 0;
     display: flex;
 }
 
 .nav-item {
-    margin: 0 0 0 0;
+    padding: 0 20px 0 0;
 }
 
     .nav-contact-logo {
-
+        display: inline-block;
     }
         .contact-logo-image {
             height: 30px;
@@ -24,11 +24,11 @@
             transition: 0.5s;
         }
         .contact-logo {
-            fill: #575757;
+            fill: #00e852;
         }
 
         .contact-logo-image:hover .contact-logo {
-            fill: #fd3d00;
+            fill: #d5d5d5;
         }
 
 
@@ -37,7 +37,7 @@
 }
 
     .page-instagram-link{
-
+        display: inline-block;
     }
     .instagram-logo-image{
         height: 30px;
@@ -48,11 +48,11 @@
     }
 
     .instagram-logo {
-        fill: #575757;
+        fill: #00e852;
     }
 
     .instagram-logo-image:hover .instagram-logo {
-        fill: #fd3d00;
+        fill: #d5d5d5;
     }
 
 @media screen and (min-width: 1200px) {
@@ -62,14 +62,20 @@
     }
 
     .page-instagram-logo {
-        padding: 20px 0 0 0;
+
     }
 
     .contact-logo {
+        fill: #00e852;
+    }
+    .contact-logo-image:hover .contact-logo {
         fill: #d5d5d5;
     }
 
     .instagram-logo {
+        fill: #00e852;
+    }
+    .instagram-logo-image:hover .instagram-logo {
         fill: #d5d5d5;
     }
 }

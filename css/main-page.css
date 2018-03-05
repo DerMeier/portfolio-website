@@ -3,15 +3,16 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    color: #575757;
 }
 
     .page-header {
         padding: 40px 40px 0 40px;
-        background-color: #F5F4F2;
+        background-color: #1b1b1b;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        align-items: center;
+        align-items: flex-end;
     }
 
 
@@ -31,7 +32,7 @@
     .page-footer {
         margin: 20px 0 0 0;
         padding:0 40px 0 40px;
-        background: #575757;
+        background: #1b1b1b;
         height: 80px;
         display: flex;
         flex-direction: row;
@@ -57,10 +58,10 @@
 
 @media screen and (min-width: 150px) {
     .page-header {
-        padding:40px 10px 0 10px;
+        padding:40px 10px;
     }
     .page-main {
-        padding: 80px 10px 0 10px;
+        padding: 40px 10px 0 10px;
     }
     .page-footer {
         padding: 0 10px 0 10px;
@@ -69,10 +70,10 @@
 
 @media screen and (min-width: 500px) {
     .page-header {
-        padding:40px 20px 0 20px;
+        padding:40px 20px;
     }
     .page-main {
-        padding: 80px 20px 0 20px;
+        padding: 40px 20px 0 20px;
     }
     .page-footer {
         padding: 0 20px 0 20px;
@@ -81,10 +82,10 @@
 
 @media screen and (min-width: 1000px) {
     .page-header {
-        padding:40px 30px 0 30px;
+        padding:40px 30px;
     }
     .page-main {
-        padding: 80px 30px 0 30px;
+        padding: 40px 30px 0 30px;
     }
     .page-footer {
         padding: 0 30px 0 30px;
@@ -93,7 +94,7 @@
 
 @media screen and (min-width: 1200px) {
     .page {
-        margin-left: 300px;
+        margin-left: 240px;
     }
     .page-header {
         padding:40px 40px 0 40px;
@@ -102,30 +103,28 @@
         top:0;
         height: 100vh;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         border-right: solid 5px;
-        border-right-color: #575757;
-        width: 300px;
-        background-color: #575757;
+        border-right-color: #1b1b1b;
+        width: 240px;
+        background-color: #1b1b1b;
     }
 
     .page-main {
         padding: 40px 40px 0 40px;
-        /*border-left: solid 20px;
-        border-left-color: #575757;*/
     }
     .page-footer {
         padding: 0 40px 0 40px;
         position: fixed;
-        width: 300px;
+        width: 240px;
         height: 100px;
         left:0;
         bottom:0;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
     }
     .page-footer-impress-link {
-        padding: 20px 0 0 0;
+        padding-top: 10px;
     }
     .page-footer-copyright {
         padding:20px 0 0 0;
