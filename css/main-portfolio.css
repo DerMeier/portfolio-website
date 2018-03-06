@@ -13,7 +13,9 @@
     }
 
         .portfolio-item {
-            position: relative;
+            width: 100%;
+            height: auto;
+            float: left;
         }
 
             .portfolio-content {
@@ -25,6 +27,8 @@
                 .portfolio-image {
                     display: block;
                     margin-top: 0;
+                    max-width: none;
+                    width: 100%;
                 }
 
                 .img-description {
@@ -46,6 +50,10 @@
     .portfolio-list {
         column-count: 2;
     }
+
+    .portfolio-item {
+        width: 50%;
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -53,11 +61,19 @@
     .portfolio-list {
         column-count: 3;
     }
+
+    .portfolio-item {
+        width: 33.334%;
+    }
 }
 
 @media screen and (min-width: 1400px) {
 
     .portfolio-list {
         column-count: 4;
+    }
+
+    .portfolio-item {
+        width: 25%;
     }
 }
