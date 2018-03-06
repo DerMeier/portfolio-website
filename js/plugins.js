@@ -26,3 +26,11 @@
 $('.js-portfolio-image-link').modaal({
     type: 'image'
 });
+
+$('.portfolio-list').imagesLoaded( function() {
+
+    $('.portfolio-list').masonry({
+        itemSelector:'.portfolio-item',
+        gutterWidth: 0
+    });
+});
