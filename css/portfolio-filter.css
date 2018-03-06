@@ -8,9 +8,9 @@
     border: none;
     outline: none;
     padding: 5px 10px;
+    color: #d5d5d5;
     background-color: #1b1b1b;
     cursor: pointer;
-    color: #00e852;
     font-family: 'Nunito', sans-serif;
     transition: 0.5s;
 }
@@ -21,10 +21,10 @@
 }
 
 /*.filter-btn.active {
-    color: #575757;
-    background-color: #BCB693;
-}
-*/
+    color: #1b1b1b;
+    background-color: #d5d5d5;
+}*/
+
 .show {
     display: block;
 }
