@@ -1,15 +1,15 @@
 
 .page-main-portfolio {
-    padding: 20px 0 0 0;
+    padding-top: 20px;
 }
 
     .portfolio-list {
         margin: 0;
         padding: 0 0 20px 0;
         list-style-type: none;
-        column-count: 1;
+        /*column-count: 1;
         column-gap: 0;
-        column-fill: balance;
+        column-fill: balance;*/
     }
 
         .portfolio-item {
@@ -59,11 +59,12 @@
 @media screen and (min-width: 1000px) {
 
     .portfolio-list {
-        column-count: 3;
+        column-count: auto;
     }
 
     .portfolio-item {
         width: 33.334%;
+        float: none;
     }
 }
 

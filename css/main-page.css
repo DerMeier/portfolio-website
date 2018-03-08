@@ -52,10 +52,11 @@
 
 @media screen and (min-width: 150px) {
     .page-header {
-        padding:20px 10px;
+        padding:30px 30px;
     }
     .page-main {
-        padding: 40px 10px 0 10px;
+        padding: 40px 30px;
+        padding-bottom: 0;
     }
     .page-footer {
         padding: 0 10px 0 10px;
@@ -64,25 +65,26 @@
 
 @media screen and (min-width: 500px) {
     .page-header {
-        padding:30px 20px;
+        padding:30px 50px;
     }
     .page-main {
-        padding: 40px 20px 0 20px;
+        padding: 40px 50px;
+        padding-bottom: 0;
     }
     .page-footer {
-        padding: 0 20px 0 20px;
+        padding: 0 50px;
     }
 }
 
 @media screen and (min-width: 1000px) {
     .page-header {
-        padding:40px 30px;
+        padding:40px 70px;
     }
     .page-main {
-        padding: 40px 30px 0 30px;
+        padding: 60px 70px;
     }
     .page-footer {
-        padding: 0 30px 0 30px;
+        padding: 0 70px;
     }
 }
 
@@ -91,7 +93,8 @@
         margin-left: 240px;
     }
     .page-header {
-        padding:40px 40px 0 40px;
+        padding:40px;
+        padding-bottom: 0;
         position: fixed;
         left:0;
         top:0;
@@ -103,10 +106,10 @@
     }
 
     .page-main {
-        padding: 40px 40px 0 40px;
+        padding: 50px 100px;
     }
     .page-footer {
-        padding: 0 40px 0 40px;
+        padding: 20px 40px;
         position: fixed;
         width: 240px;
         height: 100px;
@@ -114,11 +117,12 @@
         bottom:0;
         flex-direction: column;
         align-items: flex-start;
+        justify-content: flex-end;
     }
     .page-footer-impress-link {
         padding-top: 10px;
     }
     .page-footer-copyright {
-        padding:20px 0 0 0;
+        padding:0;
     }
 }
