@@ -1,4 +1,4 @@
-/*.page {
+.page {
     color: #000000;
 }
 
@@ -7,78 +7,79 @@
 }
 
 .page-main {
-    background-color: #ffffff;
+    background-color: #d0d0d0;
 }
-
 
 .page-footer {
     background-color: #000000;
 }
-
 
 .page-logo-style {
     transition: 0.5s;
 }
 
 .logo-style {
-    fill: #ffffff;
+    fill: #00ff00;
 }
 
 .page-logo-image:hover .logo-style {
-    fill: #7f7f7f;
+    fill: #00a300;
 }
 
 .contact-logo {
-    fill: #ffffff;
+    fill: #7f7f7f;
 }
 
 .contact-logo-image:hover .contact-logo {
-    fill: #7f7f7f;
+    fill: #bfbfbf;
 }
 
 .instagram-logo {
-    fill: #ffffff;
-}
-
-.instagram-logo-image:hover .instagram-logo {
     fill: #7f7f7f;
 }
 
+.instagram-logo-image:hover .instagram-logo {
+    fill: #bfbfbf;
+}
+
 .filter-btn {
-    color: #7f7f7f;
+    color: #000000;
     background-color: #bfbfbf;
 }
+
 .filter-btn:hover {
     color: #bfbfbf;
     background-color: #7f7f7f;
 }
-.page-footer-copyright {
-    color: #7f7f7f;
+
+.active, .filter-btn:hover{
+    color: #00ff00;
+    background-color: #000000;
 }
+
+.page-footer-copyright {
+    color: #bfbfbf;
+}
+
 a {
     color: #3f3f3f;
 }
+
 .link-style-footer {
-    color: #7f7f7f;
+    color: #bfbfbf;
 }
 
 .link-style-footer:hover {
-    color: #bfbfbf;
+    color: #ffffff;
 }
 
 .modaal-close:focus, .modaal-close:hover {
     outline: none;
-    background: #ffffff; }
+    background: #00ff00; }
 .modaal-close:focus:before, .modaal-close:focus:after, .modaal-close:hover:before, .modaal-close:hover:after {
     background: #000000; }
 .modaal-gallery-control:focus, .modaal-gallery-control:hover {
     outline: none;
-    background: #ffffff; }
+    background: #00ff00; }
 .modaal-gallery-control:focus:before, .modaal-gallery-control:focus:after, .modaal-gallery-control:hover:before, .modaal-gallery-control:hover:after {
-    background: #000000; }*/
-
-
-@media screen and (min-width: 1200px){
-    .page-header{
-    }
-}/*
+    background: #000000; }
