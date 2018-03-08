@@ -1,5 +1,5 @@
 
-.page-main-portfolio {
+.img-portfolio {
     padding-top: 20px;
 }
 
@@ -17,34 +17,33 @@
             height: auto;
             float: left;
         }
-
             .portfolio-content {
                 position: relative;
                 padding: 0;
                 margin: 0;
             }
-
-                .portfolio-image {
-                    display: block;
-                    margin-top: 0;
-                    max-width: none;
-                    width: 100%;
-                }
-
-                .img-description {
-                    opacity: 0;
-                    position: absolute;
-                    width: 100%;
-                    color: #d5d5d5;
-                    bottom:0;
-                    padding:5px 5px;
-                    background-color: #575757;
-                }
-
+                .portfolio-image-link{}
+                    .portfolio-image {
+                        display: block;
+                        margin-top: 0;
+                        max-width: none;
+                        width: 100%;
+                    }
+                    .img-description {
+                        opacity: 0;
+                        position: absolute;
+                        width: 100%;
+                        color: #d5d5d5;
+                        bottom:0;
+                        padding:5px 5px;
+                        background-color: #575757;
+                    }
             .portfolio-content:hover .img-description {
                 opacity: 1;
             }
-
+            .modaal-close:focus, .modaal-close:hover {
+                outline: none;
+                background: #ffffff; }
 @media screen and (min-width: 500px) {
 
     .portfolio-list {

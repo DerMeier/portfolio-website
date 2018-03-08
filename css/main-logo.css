@@ -1,27 +1,24 @@
-.page-logo {
+.header-logo {
     margin-right: auto;
 }
-    .page-link {
+    .header-logo-link {
         display: inline-block;
     }
 
-        .page-logo-image {
+        .header-logo-image {
             height: 60px;
         }
-        .page-logo-style{
-            transition: 0.5s;
-        }
-        .logo-style {
-            fill: #00e852;
-        }
-
-        .page-logo-image:hover .logo-style {
-            fill: #d5d5d5;
-        }
+            .header-logo-style{
+                transition: 0.5s;
+                fill: #ffffff;
+            }
+            .header-logo-image:hover .header-logo-style {
+                fill: #7f7f7f;
+            }
 
 @media screen and (min-width: 150px) {
 
-    .page-logo-image {
+    .header-logo-image {
         height: 45px;
     }
 
@@ -29,7 +26,7 @@
 
 @media screen and (min-width: 336px) {
 
-    .page-logo {
+    .header-logo {
         padding-bottom: 0;
     }
 
@@ -37,7 +34,7 @@
 
 @media screen and (min-width: 500px) {
 
-    .page-logo-image {
+    .header-logo-image {
         height: 50px;
     }
 
@@ -45,7 +42,7 @@
 
 @media screen and (min-width: 1000px) {
 
-    .page-logo-image {
+    .header-logo-image {
         height: 60px;
     }
 
@@ -53,16 +50,13 @@
 
 @media screen and (min-width: 1200px) {
 
-    .page-logo {
+    .header-logo {
         margin: 0;
     }
-    .page-logo-image {
+    .header-logo-image {
         padding: 0;
     }
-    .logo-style {
-
-    }
-    .page-logo-image:hover .logo-style {
-        fill: #d5d5d5;
+    .header-logo-image:hover .header-logo-style {
+        fill: #7f7f7f;
     }
 }

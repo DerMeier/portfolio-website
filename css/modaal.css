@@ -115,7 +115,7 @@
   transition: all 0.2s ease-in-out; }
   .modaal-close:focus, .modaal-close:hover {
     outline: none;
-    background: #00e852; }
+    background: #ffffff; }
     .modaal-close:focus:before, .modaal-close:focus:after, .modaal-close:hover:before, .modaal-close:hover:after {
       background: #000000; }
   .modaal-close span {
@@ -268,7 +268,7 @@
     cursor: default; }
   .modaal-gallery-control:focus, .modaal-gallery-control:hover {
     outline: none;
-    background: #00e852; }
+    background: #ffffff; }
     .modaal-gallery-control:focus:before, .modaal-gallery-control:focus:after, .modaal-gallery-control:hover:before, .modaal-gallery-control:hover:after {
       background: #000000; }
   .modaal-gallery-control span {

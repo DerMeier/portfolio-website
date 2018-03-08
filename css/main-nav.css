@@ -1,81 +1,62 @@
 
-.main-nav {
+.header-main-nav {
 }
 
-.nav-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-
-.nav-item {
-    padding: 0 20px 0 0;
-}
-
-    .nav-contact-logo {
-        display: inline-block;
+    .header-nav-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
     }
-        .contact-logo-image {
-            height: 30px;
+
+        .header-nav-item {
+            padding: 0 20px 0 0;
         }
 
-        .contact-logo-style{
-            transition: 0.5s;
-        }
-        .contact-logo {
-            fill: #00e852;
-        }
+            .nav-contact-link {
+                display: inline-block;
+            }
+                .nav-contact-icon {
+                    height: 30px;
+                }
+                    .contact-icon-style{
+                        transition: 0.5s;
+                        fill: #7f7f7f;
+                    }
+                    .nav-contact-link:hover .contact-icon-style {
+                        fill: #ffffff;
+                    }
 
-        .contact-logo-image:hover .contact-logo {
-            fill: #d5d5d5;
-        }
-
-
-.page-instagram-logo{
-
-}
-
-    .page-instagram-link{
-        display: inline-block;
-    }
-    .instagram-logo-image{
-        height: 30px;
-    }
-
-    .instagram-logo-style {
-        transition: 0.5s;
-    }
-
-    .instagram-logo {
-        fill: #00e852;
-    }
-
-    .instagram-logo-image:hover .instagram-logo {
-        fill: #d5d5d5;
-    }
+            .nav-instagram-link{
+                display: inline-block;
+            }
+                .nav-instagram-icon{
+                    height: 30px;
+                }
+                    .instagram-icon-style {
+                        transition: 0.5s;
+                        fill: #7f7f7f;
+                    }
+                    .nav-instagram-link:hover .instagram-icon-style {
+                        fill: #ffffff;
+                    }
 
 @media screen and (min-width: 1200px) {
-    .nav-list {
+    .header-nav-list {
         margin: 0;
         padding: 80px 0 0 0;
     }
+        .contact-icon-style {
+            fill: #7f7f7f;
+        }
+        .nav-contact-link:hover .contact-icon-style {
+            fill: #ffffff;
+        }
 
-    .page-instagram-logo {
-
-    }
-
-    .contact-logo {
-        fill: #00e852;
-    }
-    .contact-logo-image:hover .contact-logo {
-        fill: #d5d5d5;
-    }
-
-    .instagram-logo {
-        fill: #00e852;
-    }
-    .instagram-logo-image:hover .instagram-logo {
-        fill: #d5d5d5;
-    }
+        .instagram-icon-style {
+            fill: #7f7f7f;
+        }
+        .nav-instagram-link:hover .instagram-icon-style {
+            fill: #ffffff;
+        }
 }
