@@ -1,0 +1,89 @@
+/*.page {
+    color: #5d2e8c;
+}
+
+.page-header {
+    background-color: #ff6666;
+}
+
+.page-main {
+    background-color: #f1e8b8;
+}
+
+.page-footer {
+    background-color: #ff6666;
+}
+
+.header-logo-style {
+    fill: #ccff66;
+}
+
+.header-logo-image:hover .header-logo-style {
+    fill: #c2b97f;
+}
+
+.nav-icon-style{
+    fill: #ccff66;
+}
+.nav-icon-description{
+    color: #ccff66;
+}
+.nav-contact-link:hover .nav-icon-style {
+    fill: #c2b97f;
+}
+.nav-contact-link:hover .nav-icon-description {
+    color: #c2b97f;
+}
+.nav-instagram-link:hover .nav-icon-style {
+    fill: #c2b97f;
+}
+.nav-instagram-link:hover .nav-icon-description {
+    color: #c2b97f;
+}
+.nav-copyright-link:hover .nav-icon-style {
+    fill: #c2b97f;
+}
+.nav-copyright-link:hover .nav-icon-description {
+    color: #c2b97f;
+}
+.filter-btn {
+    color: #5d2e8c;
+    background-color: #f1e8b8;
+}
+
+.filter-btn:hover {
+    color: #2ec4b6;
+
+}
+.filter-btn:hover .filter-icons-style {
+    fill: #2ec4b6;
+}
+.filter-icons-style {
+    fill: #5d2e8c;
+}
+.active .filter-icons-style {
+    fill: #2ec4b6;
+}
+
+.active{
+    color: #2ec4b6;
+}
+.modaal-container{
+    background-color: #f1e8b8;
+}
+.modaal-close:before, .modaal-close:after{
+    background-color: #c2b97f;
+}
+.modaal-close:focus, .modaal-close:hover {
+    outline: none;
+    background: #c2b97f; }
+.modaal-close:focus:before, .modaal-close:focus:after, .modaal-close:hover:before, .modaal-close:hover:after {
+    background: #5d2e8c; }
+.modaal-gallery-control:before, .modaal-gallery-control:after{
+    background-color: #c2b97f;
+}
+.modaal-gallery-control:focus, .modaal-gallery-control:hover {
+    outline: none;
+    background: #c2b97f; }
+.modaal-gallery-control:focus:before, .modaal-gallery-control:focus:after, .modaal-gallery-control:hover:before, .modaal-gallery-control:hover:after {
+    background: #5d2e8c; }
