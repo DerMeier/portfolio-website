@@ -1,5 +1,6 @@
 
 .header-main-nav {
+
 }
 
     .header-nav-list {
@@ -7,56 +8,87 @@
         padding: 0;
         margin: 0;
         display: flex;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 13px;
+        letter-spacing: .025em;
     }
 
-        .header-nav-item {
-            padding: 0 20px 0 0;
+        .header-nav-item + .header-nav-item {
+            margin-left: 20px;
         }
 
             .nav-contact-link {
                 display: inline-block;
             }
-                .nav-contact-icon {
-                    height: 30px;
-                }
-                    .contact-icon-style{
-                        transition: 0.5s;
-                        fill: #7f7f7f;
-                    }
-                    .nav-contact-link:hover .contact-icon-style {
-                        fill: #ffffff;
-                    }
 
             .nav-instagram-link{
                 display: inline-block;
             }
-                .nav-instagram-icon{
-                    height: 30px;
+
+            .nav-copyright-link{
+                display: inline-block;
+            }
+
+            .nav-icon{
+                height: 30px;
+            }
+                .nav-icon-style{
+                    transition: 0.5s;
+                    fill: #7f7f7f;
                 }
-                    .instagram-icon-style {
-                        transition: 0.5s;
-                        fill: #7f7f7f;
+                .nav-icon-description{
+                    transition: 0.5s;
+                    color: #7f7f7f;
+                    position: relative;
+                    top: 2px;
+                }
+                    .nav-contact-link:hover .nav-icon-style {
+                        fill: #fff;
                     }
-                    .nav-instagram-link:hover .instagram-icon-style {
-                        fill: #ffffff;
+                    .nav-contact-link:hover .nav-icon-description {
+                        color:#fff
                     }
+                    .nav-instagram-link:hover .nav-icon-style {
+                         fill: #fff;
+                    }
+                    .nav-instagram-link:hover .nav-icon-description {
+                        color: #fff;
+                    }
+                    .nav-copyright-link:hover .nav-icon-style {
+                        fill: #fff;
+                    }
+                    .nav-copyright-link:hover .nav-icon-description {
+                        color: #fff;
+                    }
+
+@media screen and (min-width:100px){
+    .nav-icon-description {
+        display: none;
+    }
+}
+
+@media screen and (min-width:700px){
+
+}
 
 @media screen and (min-width: 1200px) {
-    .header-nav-list {
-        margin: 0;
-        padding: 80px 0 0 0;
+    .nav-icon-description {
+        display: unset;
     }
-        .contact-icon-style {
-            fill: #7f7f7f;
-        }
-        .nav-contact-link:hover .contact-icon-style {
-            fill: #ffffff;
-        }
-
-        .instagram-icon-style {
-            fill: #7f7f7f;
-        }
-        .nav-instagram-link:hover .instagram-icon-style {
-            fill: #ffffff;
-        }
+    .header-main-nav{
+        margin-top: 80px;
+    }
+    .header-nav-list {
+        flex-direction: column;
+        margin: 0;
+    }
+    .header-nav-item + .header-nav-item {
+        margin: 0;
+        margin-top: 5px;
+        padding-left: 0;
+    }
+    .nav-icon {
+        margin-right: 5px;
+    }
 }

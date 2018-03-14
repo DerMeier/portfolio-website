@@ -25,7 +25,20 @@
     }
         .main-components {}
             .text-item{}
-                .text-content {}
+                .text-content {
+                    display: none;
+                }
+                    .text-h1 {
+                        text-align: center;
+                        margin-bottom: 50px;
+                    }
+                    .text-h2 {
+                        text-align: center;
+                        margin-bottom: 30px;
+                    }
+                    .text-p-about {
+                        max-width: 500px;
+                    }
 
 
     .page-footer {
@@ -81,7 +94,7 @@
         padding-bottom: 0;
     }
     .page-footer {
-        padding: 0 50px;
+        padding: 10px 50px;
     }
 }
 
@@ -93,7 +106,7 @@
         padding: 60px 70px;
     }
     .page-footer {
-        padding: 0 70px;
+        padding: 20px 70px;
     }
 }
 
@@ -103,7 +116,7 @@
     }
 
     .page-header {
-        padding:40px;
+        padding:50px;
         padding-bottom: 0;
         position: fixed;
         left:0;
@@ -119,7 +132,7 @@
     }
 
     .page-footer {
-        padding: 20px 40px;
+        padding: 30px 50px;
         position: fixed;
         width: 240px;
         height: 100px;
@@ -135,4 +148,13 @@
         .footer-copyright {
             padding:0;
         }
+}
+@media screen and (min-width: 1400px) {
+    .page-header{
+        padding: 70px 50px;
+        padding-bottom: 0;
+    }
+    .page-main {
+        padding: 70px 200px;
+    }
 }

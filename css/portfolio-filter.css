@@ -1,48 +1,74 @@
 .img-filter {
 
 }
-    .filter-icons-box{
-        text-align: right;
-    }
-        .filter-icons{
-            height: 30px;
-        }
-        .filter-icons-style{
-            transition: 0.5s;
-            fill: #3f3f3f;
-        }
-        .filter-icons:hover .filter-icons-style {
-            fill: #bfbfbf;
-        }
-
 
     .filter-btn-box {
-        text-align: right;
+        text-align: left;
+        margin: 0;
+        padding: 0;
     }
 
         .filter-btn {
-            margin: 5px 0 0 0;
             border-radius: 0;
             border: none;
             outline: none;
-            padding: 5px 10px;
-            color: #000000;
-            background-color: #bfbfbf;
+            padding: 0;
+            color: #000;
+            background-color: #d0d0d0;
             cursor: pointer;
             font-family: 'Nunito', sans-serif;
             transition: 0.5s;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 13px;
+            letter-spacing: .025em;
         }
-
+        .filter-btn + .filter-btn {
+            margin-left: 16px;
+        }
         .filter-btn:hover {
-            color: #bfbfbf;
-            background-color: #3f3f3f;
+            color: #7f7f7f;
         }
 
-        .active /*.filter-btn:hover*/{
-            color: #ffffff;
-            background-color: #000000;
+            .filter-icons{
+                height: 30px;
+                margin-right: 5px;
+            }
+            .filter-icons-style{
+                transition: 0.5s;
+                fill: #000;
+            }
+            .filter-btn:hover .filter-icons-style {
+                fill: #7f7f7f;
+            }
+            .filter-text {
+                position: relative;
+                top: 2px;
+            }
+        .active .filter-icons-style {
+            fill: #fff;
+        }
+        .active {
+            color: #fff;
         }
 
         .show {
             display: block;
         }
+
+
+@media screen and (min-width:100px){
+    .filter-text {
+        display: none;
+    }
+}
+@media screen and (min-width:700px){
+    .filter-text {
+        display: unset;
+    }
+}
+@media screen and (min-width:1200px){
+    .filter-btn-box{
+        text-align: right;
+    }
+}

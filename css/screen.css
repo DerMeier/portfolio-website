@@ -4,9 +4,7 @@
 @import url('main-portfolio.css');
 @import url('main-logo.css');
 @import url('portfolio-filter.css');
-@import url('modaal.css');
+@import url('plugins/modaal.css');
+@import url('modaal_user.css');
 @import url('theme-orange.css');
-@import url('theme-2.css');
 @import url('theme-3green.css');
-
-/* Verwendete Farben: #575757 #BCB693 /*
