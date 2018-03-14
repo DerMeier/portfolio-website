@@ -23,8 +23,16 @@
 
 // Place any jQuery/helper plugins in here.
 
+$('.text-logo-link').click(function () {
+    $('.modaal-close').trigger('click');
+});
+
 $('.js-portfolio-image-link').modaal({
     type: 'image'
+});
+
+$('.nav-contact-link, .nav-copyright-link').modaal({
+    type: 'inline'
 });
 
 $('.portfolio-list').imagesLoaded( function() {
