@@ -1,6 +1,6 @@
 
 .img-portfolio {
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
     .portfolio-list {
@@ -41,9 +41,7 @@
             .portfolio-content:hover .img-description {
                 opacity: 1;
             }
-            .modaal-close:focus, .modaal-close:hover {
-                outline: none;
-                background: #ffffff; }
+
 @media screen and (min-width: 500px) {
 
     .portfolio-list {

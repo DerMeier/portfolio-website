@@ -14,7 +14,7 @@
             outline: none;
             padding: 0;
             color: #000;
-            background-color: #d0d0d0;
+            background-color: unset;
             cursor: pointer;
             font-family: 'Nunito', sans-serif;
             transition: 0.5s;

@@ -12,17 +12,25 @@ $('button').on('click', function(){
         itemSelector: '.portfolio-item'
     });
 
-    $('button').click(function () {
+    $('.js-filter-btn ').click(function () {
         var filter = $(this).data('filter');
 
         if (filter === 'all') {
-            $gridItem.appendTo($grid);
+            $gridItem
+                .appendTo($grid)
+                .find('.js-portfolio-image-link').modaal({
+                type: 'image'
+            });
         }
         else {
-            $gridItem.appendTo($grid)
+            $gridItem
+                .appendTo($grid)
                 .css('top','')
                 .not('[data-filter*="' + filter + '"]')
-                .remove();
+                .remove()
+                .find('.js-portfolio-image-link').modaal({
+                type: 'image'
+            });
         }
         $grid.masonry("reloadItems").masonry();
     })

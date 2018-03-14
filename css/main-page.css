@@ -24,21 +24,7 @@
         background-color: #d0d0d0;
     }
         .main-components {}
-            .text-item{}
-                .text-content {
-                    display: none;
-                }
-                    .text-h1 {
-                        text-align: center;
-                        margin-bottom: 50px;
-                    }
-                    .text-h2 {
-                        text-align: center;
-                        margin-bottom: 30px;
-                    }
-                    .text-p-about {
-                        max-width: 500px;
-                    }
+
 
 
     .page-footer {
@@ -129,6 +115,7 @@
 
     .page-main {
         padding: 50px 100px;
+        padding-top: 80px;
     }
 
     .page-footer {
