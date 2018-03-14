@@ -1,4 +1,4 @@
-.page {
+/*.page {
     color: #000000;
 }
 
@@ -14,45 +14,41 @@
     background-color: #000000;
 }
 
-.page-logo-style {
-    transition: 0.5s;
-}
-
-.logo-style {
+.header-logo-style {
     fill: #00ff00;
 }
 
-.page-logo-image:hover .logo-style {
-    fill: #00a300;
+.header-logo-image:hover .header-logo-style {
+    fill: #007f00;
 }
 
-.contact-logo {
+.contact-icon-style{
     fill: #7f7f7f;
 }
-
-.contact-logo-image:hover .contact-logo {
+.nav-contact-link:hover .contact-icon-style{
     fill: #bfbfbf;
 }
 
-.instagram-logo {
+.instagram-icon-style{
     fill: #7f7f7f;
 }
-
-.instagram-logo-image:hover .instagram-logo {
+.nav-instagram-link:hover .instagram-icon-style{
     fill: #bfbfbf;
 }
 
 .filter-btn {
     color: #000000;
-    background-color: #bfbfbf;
+    background-color: #d0d0d0;
 }
 
 .filter-btn:hover {
     color: #bfbfbf;
-    background-color: #7f7f7f;
+    background-color: #3f3f3f;
 }
 
-.active, .filter-btn:hover{
+.filter-icon-style {
+
+.active{
     color: #00ff00;
     background-color: #000000;
 }
@@ -65,13 +61,14 @@ a {
     color: #3f3f3f;
 }
 
-.link-style-footer {
+.footer-link-style {
     color: #bfbfbf;
 }
 
-.link-style-footer:hover {
+.footer-link-style:hover {
     color: #ffffff;
 }
+
 
 .modaal-close:focus, .modaal-close:hover {
     outline: none;
