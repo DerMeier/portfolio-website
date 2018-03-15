@@ -2,6 +2,7 @@
   color: #000;
   background: #d0d0d0;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 50vh;
   }
 .modaal-content-container{
   display: flex;
@@ -20,8 +21,8 @@
 }
 .modaal-close {
   border-radius: 0;
-  right: 60px;
-  top: 60px;
+  right: 5%;
+  top: 5%;
 }
 .modaal-gallery-control{
   border-radius: 0;
@@ -33,6 +34,7 @@
   .modaal-image .modaal-inner-wrapper {
     padding-left: 50px;
     padding-right: 50px; }
+
 }
 @media screen and (min-width: 700px) {
   .modaal-image .modaal-inner-wrapper {
