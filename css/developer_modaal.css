@@ -8,8 +8,20 @@
   flex-direction: column;
 
 }
+.modaal-wrapper .modaal-close{
+  background-color: #000;
+  border: solid;
+  border-width: 5px;
+  border-color: #99e319;
+}
+.modaal-close:before, .modaal-close:after{
+  top: 10px;
+  left: 18px;
+}
 .modaal-close {
   border-radius: 0;
+  right: 60px;
+  top: 60px;
 }
 .modaal-gallery-control{
   border-radius: 0;
