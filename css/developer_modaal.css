@@ -20,8 +20,8 @@
 }
 .modaal-close {
   border-radius: 0;
-  right: 5%;
-  top: 5%;
+  right: 10px;
+  top: 42px;
 }
 .modaal-gallery-control{
   border-radius: 0;
@@ -32,8 +32,12 @@
 @media screen and (min-width: 600px) {
   .modaal-image .modaal-inner-wrapper {
     padding-left: 50px;
-    padding-right: 50px; }
-
+    padding-right: 50px;
+  }
+    .modaal-close {
+        right: 30px;
+        top: 30px;
+    }
 }
 @media screen and (min-width: 700px) {
   .modaal-image .modaal-inner-wrapper {
@@ -58,22 +62,42 @@
 @media screen and (min-width: 1100px) {
   .modaal-image .modaal-inner-wrapper {
     padding-left: 300px;
-    padding-right: 300px; }
+    padding-right: 300px;
+  }
+    .modaal-close {
+        right: 70px;
+        top: 70px;
+    }
 }
 @media screen and (min-width: 1200px) {
   .modaal-image .modaal-inner-wrapper {
     padding-left: 350px;
-    padding-right: 350px; }
+    padding-right: 350px;
+  }
+    .modaal-close {
+        right: 70px;
+        top: 70px;
+    }
 }
 @media screen and (min-width: 1300px) {
   .modaal-image .modaal-inner-wrapper {
     padding-left: 400px;
-    padding-right: 400px; }
+    padding-right: 400px;
+  }
+    .modaal-close {
+        right: 70px;
+        top: 70px;
+    }
 }
 @media screen and (min-width: 1400px) {
   .modaal-image .modaal-inner-wrapper {
     padding-left: 450px;
-    padding-right: 450px; }
+    padding-right: 450px;
+  }
+    .modaal-close {
+        right: 70px;
+        top: 70px;
+    }
 }
 @media screen and (min-width: 1500px) {
   .modaal-image .modaal-inner-wrapper {
