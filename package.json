@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Das ist meine Portfolio Seite, auf der ich meine Ideen teile.",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerMeier/portfolio-website.git"
+  },
+  "author": "DerMeier",
+  "license": "CC-BY-NC-ND-4.0",
+  "bugs": {
+    "url": "https://github.com/DerMeier/portfolio-website/issues"
+  },
+  "homepage": "https://dermeier.github.io/portfolio-website/"
+}
