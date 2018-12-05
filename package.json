@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Das ist meine Portfolio Seite, auf der ich meine Ideen teile.",
   "main": "index.html",
-  "dependencies": {},
+  "dependencies": {
+    "handlebars": "^4.0.12"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^4.0.2",
